@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 10;
+    flex-wrap: wrap;
+}
+
+
+.salesContainer {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.top10productContainer{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top5InfContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+.top5InfWrapper {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.chartWrapper{
+    width: fit-content;
+    height: fit-content;
+    background-color: "white";
+    border-radius: 30px;
+    overflow: hidden;
+}

@@ -5,10 +5,9 @@ import {
   faHandHoldingDollar,
   faMoneyBillTrendUp,
   faUserGroup,
-  IconDefinition,
 } from '@fortawesome/free-solid-svg-icons';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import styles from './brand.module.css';
+import {Card} from './Card';
 
 type Props = {
   sales: string;
@@ -59,37 +58,6 @@ export default ({
         data={soldProductsNumber}
         title="Sold Products number"
       />
-    </div>
-  );
-};
-
-const Card = ({
-  title,
-  data,
-  icon,
-  iconColor,
-}: {
-  title: string;
-  data: string;
-  icon: IconDefinition;
-  iconColor: string;
-}) => {
-  return (
-    <div
-      style={{
-        backgroundColor: 'white',
-        borderRadius: 20,
-        padding: 20,
-        display: 'flex',
-        alignItems: 'center',
-        flex: 1,
-        maxWidth: '200px',
-      }}>
-      <FontAwesomeIcon icon={icon} style={{fontSize: 50}} color={iconColor} />
-      <div style={{marginLeft: 10, textAlign: 'center'}}>
-        <p style={{fontSize: 18, fontWeight: 'bolder'}}>{title}</p>
-        <p style={{fontSize: 16}}>{data}</p>
-      </div>
     </div>
   );
 };

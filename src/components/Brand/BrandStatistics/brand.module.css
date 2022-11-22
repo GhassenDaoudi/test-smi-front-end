@@ -3,6 +3,17 @@
     margin: 20px;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 40;
+    gap: 40px;
     flex-direction: row;
+}
+
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    
 }
