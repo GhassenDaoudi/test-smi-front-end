@@ -1,20 +1,22 @@
+import config from '../config';
+
 const getBrandById = (id: string): Promise<IBrand> => {
-  const url = `http://localhost:3000/brand/${id}`;
+  const url = `${config.api.baseURL}/brand/${id}`;
   return fetch(url).then(res => res.json());
 };
 
 const getBrandStatsByOfferId = (id: string): Promise<IBrandStats> => {
-  const url = `http://localhost:3000/brand/stats/${id}`;
+  const url = `${config.api.baseURL}/brand/stats/${id}`;
   return fetch(url).then(res => res.json());
 };
 
 const getInfluencerById = (id: string): Promise<IInfulencer> => {
-  const url = `http://localhost:3000/influencer/${id}`;
+  const url = `${config.api.baseURL}/influencer/${id}`;
   return fetch(url).then(res => res.json());
 };
 
 const getArticleById = (id: string) => {
-  const url = `http://localhost:3000/article/${id}`;
+  const url = `${config.api.baseURL}/article/${id}`;
   return fetch(url).then(res => res.json());
 };
 
