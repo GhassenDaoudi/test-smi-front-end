@@ -1,4 +1,4 @@
-export default {
+const countryCodeToName = {
   AF: 'Afghanistan',
   AL: 'Albania',
   DZ: 'Algeria',
@@ -230,3 +230,6 @@ export default {
   ZW: 'Zimbabwe',
   AX: 'Åland Islands ',
 } as const;
+
+export default countryCodeToName;
+export type CountryCode = keyof typeof countryCodeToName;

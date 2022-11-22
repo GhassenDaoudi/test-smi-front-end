@@ -1,5 +1,4 @@
 import {useParams} from 'react-router-dom';
-import {IBrand} from '../../../../api';
 import BrandCharts from '../../../../components/Brand/BrandCharts';
 import BrandStatistics from '../../../../components/Brand/BrandStatistics';
 import TopMenu from '../../../../components/common/TopMenu';

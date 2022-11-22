@@ -42,7 +42,6 @@ export default ({stats}: {stats: IBrandStats}) => {
 
 import {useMemo} from 'react';
 import Plot from 'react-plotly.js';
-import {IBrandStats} from '../../../api';
 import {useArticles, useInfluencer} from '../../../hooks/api';
 
 const SaleStats = () => {
