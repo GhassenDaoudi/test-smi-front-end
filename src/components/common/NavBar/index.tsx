@@ -28,9 +28,9 @@ export default () => {
         style={{
           display: 'flex',
           flexDirection: 'column',
-          gap: 20,
-          marginRight: 20,
-          marginTop: 20,
+          gap: '20px',
+          marginRight: '20px',
+          marginTop: '20px',
         }}>
         <div className={`${styles.link} ${styles.active}`}>
           <FontAwesomeIcon icon={faLineChart} />
