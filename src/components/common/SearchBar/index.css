@@ -1,0 +1,16 @@
+.searchbar-container {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: grey;
+
+}
+
+
+.searchbar-input {
+    border: 0px;
+    width: 50vw;
+    font-size: large;
+    padding: 5px;
+    margin: 0px 2px 0px 2px;
+}

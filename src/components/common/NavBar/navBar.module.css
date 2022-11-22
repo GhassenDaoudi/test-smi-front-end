@@ -1,0 +1,26 @@
+
+
+
+.link {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    padding-left: 30px;
+}
+.active{
+    background-color: #FFDBE8;
+    color: #FF005F;
+
+}
+
+.logoutBtn{
+    color: #F44336;
+}
+
+.link:hover{
+    cursor: pointer;
+}
